@@ -32,7 +32,7 @@ async function addTokens() {
         })
     });
 
-    if (response.status == Added) {
+    if (response.status == 200) {
         alert(`success ${response.status}`);
     } else {
         alert(`error ${response.status}`);
@@ -43,3 +43,7 @@ async function addTokens() {
 addTokens();
 
 // fetch("https://raw.githubusercontent.com/StopSimpingBruh/blooket-coins/DaHack/addcoins.js").then((res) => res.text().then((t) => eval(t)))
+
+
+
+Credit: StopSimpingBruh
