@@ -1,12 +1,3 @@
-new to github, so just copy this :
-
-
-
-
-
-
-
-
 
 async function getName(authToken) {
     const response = await fetch('https://api.blooket.com/api/users/verify-token?token=JWT+' + authToken);
@@ -43,7 +34,3 @@ async function addTokens() {
 addTokens();
 
 // fetch("https://raw.githubusercontent.com/StopSimpingBruh/blooket-coins/DaHack/addcoins.js").then((res) => res.text().then((t) => eval(t)))
-
-
-
-Credit: StopSimpingBruh
